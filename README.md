@@ -1,5 +1,7 @@
 # DexScreen Receiver
 
+<img src="media/icon.png" alt="DexScreen Receiver icon" width="120">
+
 An experimental, **non-root** Wi-Fi Display (Miracast) sink for Android, built to let a spare Android
 tablet act as a wireless display for Samsung's **Wireless DeX**. No Magisk module, no hidden/non-SDK
 APIs, no platform signing keys — just [Shizuku](https://github.com/RikkaApps/Shizuku) brokering a
