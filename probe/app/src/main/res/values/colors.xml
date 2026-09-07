@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Two token families, both derived from one reference (a bright indigo/cyan productivity-app mockup):
+     "home_*" is MainActivity's chrome: a dark navy page (home_bg) with white cards floating on it, so
+     home_text_* (dark) is for text ON THE WHITE CARD, while home_header_* (light) is for text sitting
+     directly on the dark page background (the top header row, the footer copyright line) — same page,
+     two different surfaces to stay legible on.
+     "overlay_*" is the dark glass used for ReceiverActivity's connecting screen, session pill, and control
+     dock, which sit on top of arbitrary live video and need to stay legible regardless of what's playing
+     underneath — same indigo accent, inverted to light-on-dark rather than a literal light re-theme.
+     Status colors (ok/warn/danger) stay conventional semantic red/green/amber. -->
+<resources>
+    <color name="home_bg">#FF0A2947</color>
+    <color name="home_card">#FFFFFFFF</color>
+    <color name="home_text_primary">#FF1B1F3B</color>
+    <color name="home_text_muted">#FF8A8FA3</color>
+    <color name="home_text_dim">#FFB4B8C9</color>
+    <color name="home_accent">#FF4C6FFF</color>
+    <color name="home_accent_2">#FF29D9C8</color>
+    <color name="home_border">#141B1F3B</color>
+    <color name="home_chip_bg">#144C6FFF</color>
+    <color name="home_header_text">#FFFFFFFF</color>
+    <color name="home_header_caption">#B3FFFFFF</color>
+    <color name="home_header_dim">#66FFFFFF</color>
+    <color name="home_header_chip_bg">#1FFFFFFF</color>
+
+    <color name="overlay_bg">#FF0F1730</color>
+    <color name="overlay_card">#FF1E2749</color>
+    <color name="overlay_text_primary">#FFFFFFFF</color>
+    <color name="overlay_text_muted">#A6FFFFFF</color>
+    <color name="overlay_text_dim">#73FFFFFF</color>
+    <color name="overlay_accent">#FF4C6FFF</color>
+    <color name="overlay_border">#1AFFFFFF</color>
+    <color name="overlay_chip_bg">#0FFFFFFF</color>
+    <color name="dock_bg">#E60F1730</color>
+
+    <color name="ok">#FF10B981</color>
+    <color name="ok_light">#FF6EE7B7</color>
+    <color name="warn">#FFF59E0B</color>
+    <color name="danger">#FFF04438</color>
+</resources>

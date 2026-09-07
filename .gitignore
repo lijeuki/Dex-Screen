@@ -1,0 +1,24 @@
+# Internal working notes: not published to GitHub.
+docs/
+reports/
+
+# Local tooling / editor state, not part of the project.
+.claude/
+.vscode/
+dex-screen logo.png
+
+# Reference-only clones, not redistributed.
+upstream/
+research/
+
+# Build artifacts / local tooling.
+.gradle-local/
+probe/.gradle/
+probe/**/build/
+probe/build-tests/
+probe/local.properties
+probe/*.jks
+*.apk
+artifacts/
+.idea/
+.DS_Store
